@@ -11,11 +11,12 @@ const MyChartComponent = (props) => {
     const options = {
         chart: {
             type: 'pie',
-            plotBackgroundColor: '#282c34',
-            backgroundColor: '#282c34'
         },
         title: {
-            text: 'Three Level Drilldown Pie Chart'
+            text: 'Salacia Programming Challenge'
+        },
+        subtitle: {
+            text: 'By Viviana Rodriguez'
         },
         plotOptions: {
             series: {
